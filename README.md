@@ -1,3 +1,3 @@
 # Kakao Clone 2021 Itsring
 
-HTML+CSS
+HTML+CSS are so much good!
