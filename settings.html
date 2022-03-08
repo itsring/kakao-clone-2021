@@ -12,7 +12,7 @@
     />
     <link rel="stylesheet" href="CSS/style.css" />
 
-    <title>Chats - Kakao Clone</title>
+    <title>Settings - Kakao Clone</title>
   </head>
   <body>
     <div id="status-bar">
@@ -32,45 +32,45 @@
         <!-- Lightning Icon -->
       </div>
     </div>
-    <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
-      <div class="screen-header__icons">
-        <span class="screen-header__icons_icon"
-          ><i class="fas fa-search fa-lg"></i
-        ></span>
-        <span class="screen-header__icons_icon"
-          ><i class="far fa-comment-dots fa-lg"></i
-        ></span>
-        <span class="screen-header__icons_icon"
-          ><i class="fas fa-music fa-lg"></i
-        ></span>
-        <span class="screen-header__icons_icon"
-          ><i class="fas fa-cog fa-lg"></i
-        ></span>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html">
+          <i class="fas fa-angle-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Settings</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fas fa-search fa-lg"></i>
       </div>
     </header>
     <main class="main-screen">
-      <a href="chat.html">
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="https://avatars.githubusercontent.com/u/81471797?s=400&u=d0e5be5ef5c6b7847dce3d1cca08ebcf2f9f4f0b&v=4"
-              class="user-component__avatar user-component__avatar"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title">me</h4>
-              <h6 class="user-component__subtitle">
-                Please check My Chat html
-              </h6>
-            </div>
+      <ul class="settings-list">
+        <li class="settings__setting">
+          <div class="settings_setting-column">
+            <i class="fas fa-bullhorn settings_icon"></i>
+            <span>Notices</span>
           </div>
-          <div class="user-component__column">
-            <span class="user-component__time">21:22</span>
-            <div class="badge">1</div>
+          <div class="settings_setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings_setting-column">
+            <i class="fas fa-flask settings_icon"></i>
+            <span>KoKoa Lab</span>
           </div>
-        </div>
-      </a>
+          <div class="settings_setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings_setting-column">
+            <i class="fas fa-info-circle settings_icon"></i>
+            <span>Version</span>
+          </div>
+          <div class="settings_setting-column">Latest Version</div>
+        </li>
+      </ul>
     </main>
+
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">

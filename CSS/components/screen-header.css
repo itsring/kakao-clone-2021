@@ -10,6 +10,19 @@
   font-weight: 600;
 }
 
-.screen-header__icons span {
+.screen-header__icons_icon {
   margin-left: 25px;
+}
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-cog {
+  animation: rotateCog 1s linear infinite;
 }
